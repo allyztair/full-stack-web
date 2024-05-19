@@ -35,3 +35,39 @@ Webpages
 - ID Selector: `#idName`
 - Attribute selector: `p[draggable="false"]`
 - Univeral selector: `*`
+
+## git
+
+**Version Control**
+
+- `cd` - change directory
+- `ls` - list `ls -l`, `ls -a`, `ls -h`, `ls -la`(combination).
+- `touch` - to create a file.
+- `git init` - to initialized git.
+- `git status` - to see what's currently inside the staging area.
+- `git add` - to add the changes to the staging area.
+- `git commit -m` - a message to track the changes that was made. _ALWAYS USE PRESENT TENSE_.
+- `git log` - to see the commit that was made.
+- `clear` - to clear the terminal.
+- `git checkout` - to go back to the last position of our local repository when commit is done.
+- `git diff index.html` - to check the difference between the current version of the file and the last save point.
+- `git checkout` - to roll back to the previous version.
+
+## GitHub
+
+**Remote Repository**
+
+- `git remote add origin` - to transfer all the commits from the local repository to the remote repository.
+  - _origin_ is the name of the remote repository.
+- `git push -u <remote name> <branch name>` - pushes local repository to remote repo.
+  - _bascially links up local repo to remote repo_.
+  - _main_ is the default branch of all the your commits.
+
+**.gitigniore**
+
+- _stuff that don't want to be commited on an opem platform like GitHub_
+- Sample Files:
+  - secret passwords
+  - API Keys
+  - OS generated files
+- use wildcards -- _research this_
