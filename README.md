@@ -20,7 +20,7 @@ _04 - 20 - 2024 | Nerisse Allyztair M. Ramirez_
 
 Webpages
 
-## Adding CSS
+## Cascading Syle Sheet (CSS)
 
 **Three ways to add CSS**
 
@@ -35,6 +35,10 @@ Webpages
 - ID Selector: `#idName`
 - Attribute selector: `p[draggable="false"]`
 - Univeral selector: `*`
+
+**CSS Colors**
+
+-
 
 ## git
 
@@ -70,4 +74,29 @@ Webpages
   - secret passwords
   - API Keys
   - OS generated files
-- use wildcards -- _research this_
+- use wildcards `*.txt` -- _research this_
+
+**CLoning**
+
+- `git clone <url>` - to craeata a local copy of a remote repo.
+
+**Branching and Merging**
+
+- `git branch <branch name>` - to create a branch.
+- `git branch` - to see the branches.
+  - `*main` - asterisk means you're currently on that branch.
+- `git checkout <branch name>` - to switch branch.
+- `git merge <branch name>` - to integrate features or fixes from a feature branch into the main branch.
+
+**Forking and Pull Requests**
+
+- _Forking_ - a common practice that allows you to create a personal copy of someone else's project under your own GitHub account.
+- _Pull Request_ - enables developers to propose changes, collaborate on code improvements, and maintain high-quality software projects through thorough review and discussion.
+
+## Terminologies
+
+- Property
+- Value
+- Syntax
+- Method
+- Function
