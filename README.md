@@ -38,6 +38,29 @@ Webpages
 
 **CSS Colors**
 
+**Font Properties**
+
+**_Font Size_**
+
+- 1px (pixel) - 1/96th inch, static
+- 1pt (point) - 1/72nd inch, static
+- 1em - 100% of parent, relative size
+- 1rem - 100% of root, relative size
+
+**_Font Weight_**
+
+- normal bold - keywords
+- lighter bolder - relative to parent
+- number - 100-900
+
+**_Font Family_**
+
+- Typeface - research more about this
+- generic font type - backu-up font
+- use <" "> when a font's name uses a space
+
+**_Text Align_**
+
 -
 
 ## git
@@ -100,3 +123,4 @@ Webpages
 - Syntax
 - Method
 - Function
+- Typeface
