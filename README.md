@@ -61,7 +61,16 @@ Webpages
 
 **_Text Align_**
 
--
+- **The CSS Box Model**
+
+- padding
+- margin
+- border-width
+
+**Content Division Element**
+`<div></div>` - invisible box
+
+**Pesticide Chrome Extension**
 
 ## git
 
