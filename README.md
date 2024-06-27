@@ -70,7 +70,13 @@ Webpages
 **Content Division Element**
 `<div></div>` - invisible box
 
-**Pesticide Chrome Extension**
+**The Cascade - Specificity and Inheritance**
+
+- Categories:
+  - Position: the lower the rule, the more important it is.
+  - Specificity: element --> class --> attribute --> id (written to most specific)
+  - Type: external --> internal --> inline
+  - Importance: using "!important" keyword after the property and value
 
 ## git
 
