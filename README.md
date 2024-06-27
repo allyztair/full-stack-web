@@ -73,10 +73,23 @@ Webpages
 **The Cascade - Specificity and Inheritance**
 
 - Categories:
+
   - Position: the lower the rule, the more important it is.
   - Specificity: element --> class --> attribute --> id (written to most specific)
   - Type: external --> internal --> inline
   - Importance: using "!important" keyword after the property and value
+
+  **Combine CSS Selectors**
+
+  - Rules:
+
+    - Group rule - apply to both selectors separating by `comma`.
+    - Child - apply to direct child of left side. syntax: `<parent> > <child> { color: red; }`.
+    - Descendant - apply to a descendant of left side. syntax: `<ancestor> <descendant> { color: red; }`
+    - Chaining - apply where ALL selectors are true. syntax: `<element>.<class>#<id> { color: red; }`
+    - Combining combiners - syntax: `ancestor-<element> <element>.<class> { color: red; } `
+
+    **CSS Positioning**
 
 ## git
 
